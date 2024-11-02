@@ -27,10 +27,10 @@ public class FormController {
             @RequestParam("phoneNumber") String phoneNumber,
             @RequestParam("subject") String subject
     ){
-        // making costume message.
+        // make message as you need!
     String message = "hello ! my name is "+name+" and my email is : "+email+" my phone number is "
             +phoneNumber+"\n"+description;
-    //sending to mail specific mail
+    //add email here to send data
     String to = "abcdefghyt99@gmail.com";
     //sending message to email
         try{
